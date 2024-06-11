@@ -5,3 +5,9 @@
 </div>
 
 ----
+
+### 1. Introduction
+
+Nickel and copper are highly important metals that play a pivotal role in sustaining the global economy mostly due to their multi-faceted applications in construction, electronics and transportation industries. Economists closely monitor the prices of copper and nickel for signs of health of the economy. Thus, in this project, I set out to apply time series econometrics tools to investigate how the prices of the two metals are related.
+
+### 2. Data and Methodology
