@@ -15,3 +15,9 @@ Nickel and copper are highly important metals that play a pivotal role in sustai
 For this project, I use nickel and copper global price data obtained from FRED (Federal Reserve Economic Data). The data is seasonally unadjusted quartely data spanning from 1990 to 2023.
 
 See table below for the summary statistics of the data:
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Summary_statistics.png"  />
+</div>
+<br>
+
