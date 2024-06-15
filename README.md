@@ -75,6 +75,10 @@ Fig 5: Stack-up line graph of Copper and Nickel Commodities Quarterly Returns
 Fig 6: Box-Plot Summarising the Returns Copper and Nickel
 
 <div align="Left">
-  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Box_plot_Ret.png"  />
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Box_plot_Rett.png"  />
 </div>
 <br>
+
+The boxplot reveals a depth of details on how the two commodities differ in turns of returns. While the mean return for both nickel and copper averages about 1.6% per quarter, the former reveals high volatility from the risk point of view, effectively dipping its Sharpe ratio. Thus, the two commodities may be suitable to individuals with a completely different risk profile.
+
+
