@@ -81,4 +81,10 @@ Fig 6: Box-Plot Summarising the Returns Copper and Nickel
 
 The boxplot reveals a depth of details on how the two commodities differ in turns of returns. While the mean return for both nickel and copper averages about 1.6% per quarter, the former reveals high volatility from the risk point of view, effectively dipping its Sharpe ratio. Thus, the two commodities may be suitable to individuals with a completely different risk profile.
 
+### 3. Analysis and Modeling
 
+#### 1. Informal checks
+
+In time series analysis, it is advisable to perform informal checks on the data before carrying on with formal testing. Informal checks allow us to identify whether the data is stationary or non stationary. As a way of definition, stationary data is time series data that has constant mean and variance while non-stationary data is data that is upward trending or vice versa.
+
+Per fig 2 ( stacked line graph), we can observe that our data tend to trend upwards together. Thus, indicating a lack of stationarity.
