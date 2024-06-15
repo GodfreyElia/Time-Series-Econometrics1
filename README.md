@@ -27,21 +27,21 @@ See table below for the summary statistics of the data:
 
 In this section, we visualise our data to observe any trends and/or anomalies.
 
-a. Fig 2: Stack-up line graph of Copper and Nickel global prices
+Fig 2: Stack-up line graph of Copper and Nickel global prices
 
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/line_graph.png"  />
 </div>
 <br>
 
-b. Fig 3: Box-Plot Summarising the Price Distribution of the two Global Commodites
+Fig 3: Box-Plot Summarising the Price Distribution of the two Global Commodites
 
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Box_plot.png"  />
 </div>
 <br>
 
-c. Fig 4: Scatter_Plot Exploring the Correlation Between the Prices of Copper and Nicker
+Fig 4: Scatter Plot Exploring the Correlation Between the Prices of Copper and Nicker
 
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Relationship_between_nickel_and_copper_prices.png"  />
@@ -54,8 +54,27 @@ We observe that the prices of the two commodities closely follow each other, wit
 
 In this section, instead of visualising commodity prices in a particular period, we shift our focus to observing the Quarterly price changes.
 
+#### Returns Summary Statistics
+
+We start by analysing the returns summary statistics. From the below table, we can notice that the returns of the two commodities from quarter to quarter are almost identical, with Copper and Nickel commodities experiencing an arithmetic mean quarterly return of 1.6% and 1.7% respectively. Furthermore, the returns are not as volatile at 12% and 15% standard deviation for copper and nickel respectively.
+
 <div align="Left">
-  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Relationship_between_nickel_and_copper_prices.png"  />
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Quarterly_Ret_Summary.png"  />
 </div>
 <br>
 
+#### Charts
+
+Fig 5: Stack-up line graph of Copper and Nickel Commodities Quarterly Returns
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Global_Metals_Quarterly_Ret.png"  />
+</div>
+<br>
+
+Fig 6: Box-Plot Summarising the Returns Copper and Nickel
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Box_plot_Ret.png"  />
+</div>
+<br>
