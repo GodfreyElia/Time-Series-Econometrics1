@@ -100,7 +100,7 @@ Per fig 2 ( brought down below), we can observe that our data tend to trend upwa
 
     A2. Plotting First-Difference Data
 
-Economic theory recommends transforming the data into its first difference to achieve stationarity. We do that in this section. When the data is first-differenced we notice that it becomes stationary and therefore gives an indication that the data has unit roots.
+Economic theory recommends transforming the data into its first difference to achieve stationarity. We do that in this section. When the data is first-differenced (see fig 7 below) we notice that it becomes stationary and therefore gives an indication that the data has unit roots.
 
 •  By way of definition, a time series with a unit root is one where the influence of past values on the current value is so strong that the series is non-stationary.
 
@@ -115,5 +115,38 @@ Economic theory recommends transforming the data into its first difference to ac
 
 Fig 7: First-difference price data of Copper and Nickel
 
+Method B: Autocorrelation Function (ACF)
+
+ACF is another informal method of testing whether the data is stationary or not. As a rule of thumb, data is stationary if it shows fast decay i.e. autocorrelation values diminish quickly and become insignificant after a few lags.
+
+    B1. Copper - Level Data ACF
+
+Fig 8. 
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Copper_LD.png"  />
+</div>
+<br>
+
+As can be observed, our data is not stationary as the lags do not diminish rapidly to fall under the significance band. Thus, our level data has long memory.
+
+    Copper - First Difference Data ACF
+
+Fig 9.
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Copper_FD.png"  />
+</div>
+<br>
+
+We observe that the first differenced data is stationary. Thus, first differencing the data removes memory from it.
 
 
+    B2: Nickel - Level Data ACF
+
+Fig 10. 
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Copper_LD.png"  />
+</div>
+<br>
