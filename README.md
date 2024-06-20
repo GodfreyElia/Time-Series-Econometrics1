@@ -163,3 +163,13 @@ Fig 12. Correlation Plot of First Level Nickel Price Data Lagged to 21 Lags
 <br>
 
 We observe that the first differenced data is stationary. Thus, first differencing the data removes memory from it.
+
+#### Formal Checks
+
+Recall that we have so far concluded that our data contains unit roots. To proceed, we use formal methods to tests the unit roots. One popular such method is the:
+
+##### i. Augmented Dickey Fuller Test (ADF)
+
+The null hypothesis of the ADF test is that the time series has a unit root, indicating that it is non-stationary. The alternative hypothesis is that the time series data is stationary after accounting for unit roots.
+
+ADF is a regression of the form: Δyt ​= α + βt + γyt−1 ​+ δ1​Δyt−1​ +...+ δp​Δyt−p​+εt​
