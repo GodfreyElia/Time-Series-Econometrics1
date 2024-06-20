@@ -87,4 +87,33 @@ The boxplot reveals a depth of details on how the two commodities differ in turn
 
 In time series analysis, it is advisable to perform informal checks on the data before carrying on with formal testing. Informal checks allow us to identify whether the data is stationary or non stationary. As a way of definition, stationary data is time series data that has constant mean and variance while non-stationary data is data that is upward trending or vice versa.
 
-Per fig 2 ( stacked line graph), we can observe that our data tend to trend upwards together. Thus, indicating a lack of stationarity.
+Method A: Plotting
+
+A1. Plotting Level Data
+
+Per fig 2 ( brought down below), we can observe that our data tend to trend upwards together. Thus, indicating a lack of stationarity.
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Line_graph1.png"  />
+</div>
+<br>
+
+A2. Plotting First-Difference Data
+
+Economic theory recommends transforming the data into its first difference to achieve stationarity. We do that in this section. When the data is first-differenced we notice that it becomes stationary and therefore gives an indication that the data has unit roots.
+
+•  By way of definition, a time series with a unit root is one where the influence of past values on the current value is so strong that the series is non-stationary.
+
+•  If the equation of our time series looks like: Xt=ρXt−1+ϵt and if ρ=1, then the series has a unit root. This means today's value is just yesterday's value plus some random shock.
+
+•  Because ρ=1,  the effect of past values does not diminish over time, making the series non-stationary and very unpredictable.
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/First-difference_data.png"  />
+</div>
+<br>
+
+Fig 7: First-difference price data of Copper and Nickel
+
+
+
