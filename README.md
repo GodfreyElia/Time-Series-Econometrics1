@@ -89,7 +89,7 @@ In time series analysis, it is advisable to perform informal checks on the data 
 
 Method A: Plotting
 
-A1. Plotting Level Data
+    A1. Plotting Level Data
 
 Per fig 2 ( brought down below), we can observe that our data tend to trend upwards together. Thus, indicating a lack of stationarity.
 
@@ -98,7 +98,7 @@ Per fig 2 ( brought down below), we can observe that our data tend to trend upwa
 </div>
 <br>
 
-A2. Plotting First-Difference Data
+    A2. Plotting First-Difference Data
 
 Economic theory recommends transforming the data into its first difference to achieve stationarity. We do that in this section. When the data is first-differenced we notice that it becomes stationary and therefore gives an indication that the data has unit roots.
 
