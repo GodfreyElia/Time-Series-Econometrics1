@@ -30,7 +30,7 @@ In this section, we visualise our data to observe any trends and/or anomalies.
 Fig 2: Stack-up line graph of Copper and Nickel global prices
 
 <div align="Left">
-  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/line_graph.png"  />
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Line_graph1.png"  />
 </div>
 <br>
 
