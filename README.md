@@ -121,7 +121,7 @@ ACF is another informal method of testing whether the data is stationary or not.
 
     B1. Copper - Level Data ACF
 
-Fig 8. 
+Fig 8. Correlation Plot of First Level Copper Price Data Lagged to 21 Lags
 
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Copper_LD.png"  />
@@ -132,7 +132,7 @@ As can be observed, our data is not stationary as the lags do not diminish rapid
 
     Copper - First Difference Data ACF
 
-Fig 9.
+Fig 9. Correlation Plot of First Difference Copper Price Data Lagged to 21 Lags
 
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Copper_FD.png"  />
@@ -144,9 +144,22 @@ We observe that the first differenced data is stationary. Thus, first differenci
 
     B2: Nickel - Level Data ACF
 
-Fig 10. 
+Fig 10. Correlation Plot of First Level Nickel Price Data Lagged to 21 Lags
 
 <div align="Left">
-  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Copper_LD.png"  />
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Nickel_LD.png"  />
 </div>
 <br>
+
+As can be observed, our data is not stationary as the lags do not diminish rapidly to fall under the significance band. Thus, our level data has long memory.
+
+    Nickel - First Difference Data ACF
+
+Fig 12. Correlation Plot of First Level Nickel Price Data Lagged to 21 Lags
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Nickel_FD.png"  />
+</div>
+<br>
+
+We observe that the first differenced data is stationary. Thus, first differencing the data removes memory from it.
