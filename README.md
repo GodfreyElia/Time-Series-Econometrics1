@@ -179,7 +179,6 @@ Furthermore, like most time series regression models, the actual critical values
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ADF_critical_values.png"  />
 </div>
-<br>
 
 ##### 1. Copper
 
@@ -197,8 +196,7 @@ B. Trend
 </div>
 <br>
 
-Conclusion: After running ADF test using the URCA library in R, we can reject the null hypothesis that our Copper time series data is non-stationary and has unit roots, contrary to the informal checks. Furthermore, we can see that the data is stationary with a drift and trend.
-
+Conclusion: After running ADF test using the URCA library in R, we fail to reject the null hypothesis that our Copper time series data is non-stationary and has unit roots, agreeing with the informal checks. Furthermore, we can see that the data is non-stationary with a deterministic trend.
 
 ##### 2. Nickel
 
@@ -216,4 +214,4 @@ B. Trend
 </div>
 <br>
 
-Conclusion: Similar to Copper, our nickel time series data is stationery and has a drift and trend.
+Conclusion: Similar to Copper, our nickel time series data is non-stationery and has a deterministic trend.
