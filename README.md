@@ -215,3 +215,7 @@ B. Trend
 <br>
 
 Conclusion: Similar to Copper, our nickel time series data is non-stationery and has a deterministic trend.
+
+### 3. Cointegration
+
+Having formally proved that our data is non-stationary with a deterministic trend, we move on to the next challenge. Here, we would like to identify whether or not our data has unit roots. In the case that our data has unit roots, we can model our level data as is, with the confidence that the error terms in the time series will cancel each other out.
