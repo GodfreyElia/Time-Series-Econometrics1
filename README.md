@@ -236,9 +236,7 @@ Having formally proved that our data is non-stationary with a deterministic tren
 
 #### Engle-Granger test
 
-For this test, we use the same critical values in fig 12.
-
-Since our test statistic is smaller than the critical value at 5% and 100 sample size, we reject the null hypothesis that our residuals are nonstationary and have unit roots. We therefore determine the prices of copper and nickel are cointegrated.
+For this test, we use the same critical values in fig 12. Since our test statistic is smaller than the critical value at 5% and 100 sample size, we reject the null hypothesis that our residuals are nonstationary and have unit roots. We therefore conclude that the prices of copper and nickel are cointegrated.
 
 Fig 17: ADF Test results for copper ~ nickel regression model residuals.
 NULL: Residuals have unit unit roots
