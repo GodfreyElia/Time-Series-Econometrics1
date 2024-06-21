@@ -173,3 +173,40 @@ Recall that we have so far concluded that our data contains unit roots. To proce
 The null hypothesis of the ADF test is that the time series has a unit root, indicating that it is non-stationary. The alternative hypothesis is that the time series data is stationary after accounting for unit roots.
 
 ADF is a regression of the form: Δyt ​= α + βt + γyt−1 ​+ δ1​Δyt−1​ +...+ δp​Δyt−p​+εt​
+
+##### 1. Copper
+
+A. Drift
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Copper_drift.png"  />
+</div>
+<br>
+
+B. Trend
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Copper_trend.png"  />
+</div>
+<br>
+
+Conclusion: After running ADF test using the URCA library in R, we can reject the null hypothesis that our Copper time series data is non-stationary and has unit roots, contrary to the informal checks. Furthermore, we can see that the data is stationary with a drift and trend.
+
+
+##### 2. Nickel
+
+A. Drift
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Nickel_drift.png"  />
+</div>
+<br>
+
+B. Trend
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Nickel_trend.png"  />
+</div>
+<br>
+
+Conclusion: Similar to Copper, our nickel time series data is stationery and has a drift and trend.
