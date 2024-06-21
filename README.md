@@ -172,7 +172,14 @@ Recall that we have so far concluded that our data contains unit roots. To proce
 
 The null hypothesis of the ADF test is that the time series has a unit root, indicating that it is non-stationary. The alternative hypothesis is that the time series data is stationary after accounting for unit roots.
 
-ADF is a regression of the form: Δyt ​= α + βt + γyt−1 ​+ δ1​Δyt−1​ +...+ δp​Δyt−p​+εt​
+ADF is a regression of the form: Δyt ​= α + βt + γyt−1 ​+ δ1​Δyt−1​ +...+ δp​Δyt−p​ + εt​.
+
+Furthermore, like most time series regression models, the actual critical values to use for decision rules are specially calculated, and in this particular case of ADF, we use ones from Koop econometrics below:
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ADF_critical_values.png"  />
+</div>
+<br>
 
 ##### 1. Copper
 
