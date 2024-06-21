@@ -155,7 +155,7 @@ As can be observed, our data is not stationary as the lags do not diminish rapid
 
     Nickel - First Difference Data ACF
 
-Fig 12. Correlation Plot of First Level Nickel Price Data Lagged to 21 Lags
+Fig 11. Correlation Plot of First Level Nickel Price Data Lagged to 21 Lags
 
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ACF-Nickel_FD.png"  />
@@ -176,6 +176,8 @@ ADF is a regression of the form: Δyt ​= α + βt + γyt−1 ​+ δ1​Δyt�
 
 Furthermore, like most time series regression models, the actual critical values to use for decision rules are specially calculated, and in this particular case of ADF, we use ones from Koop econometrics below:
 
+Fig 12: ADF Critical Values
+
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ADF_critical_values.png"  />
 </div>
@@ -184,12 +186,18 @@ Furthermore, like most time series regression models, the actual critical values
 
 A. Drift
 
+Fig 14: ADF Test Results for copper
+NULL: Copper prices have unit unit roots and drift
+
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Copper_drift.png"  />
 </div>
 <br>
 
 B. Trend
+
+Fig 15: ADF Test Results for copper
+NULL: Copper prices have unit unit roots and deterministic trend
 
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Copper_trend.png"  />
@@ -202,12 +210,18 @@ Conclusion: After running ADF test using the URCA library in R and using a confi
 
 A. Drift
 
+Fig 16: ADF Test Results for nickel
+NULL: Nickel prices have unit unit roots and drift
+
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Nickel_drift.png"  />
 </div>
 <br>
 
 B. Trend
+
+Fig 16: ADF Test Results for nickel
+NULL: Nickel prices have unit unit roots and trend
 
 <div align="Left">
   <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/Nickel_trend.png"  />
@@ -216,6 +230,36 @@ B. Trend
 
 Conclusion: Similar to Copper, our nickel time series data is non-stationery and has a deterministic trend.
 
-### 3. Cointegration
+### 4. Cointegration
 
-Having formally proved that our data is non-stationary with a deterministic trend, we move on to the next challenge. Here, we would like to identify whether or not our data has unit roots. In the case that our data has unit roots, we can model our level data as is, with the confidence that the error terms in the time series will cancel each other out.
+Having formally proved that our data is non-stationary with a deterministic trend, we move on to the next challenge. We would like to identify whether or not our variables are cointegrated i.e. the possibility that their stochastic trends cancels each other. This process removes any trend from their error and therefore their error is stationary. Having said this, we will test cointegration in the prices of copper and nickel, by checking for unit roots in their error (regression residuals). We do this using the Engle-Granger test.
+
+#### Engle-Granger test
+
+For this test, we use the same critical values in fig 12.
+
+Since our test statistic is smaller than the critical value at 5% and 100 sample size, we reject the null hypothesis that our residuals are nonstationary and have unit roots. We therefore determine the prices of copper and nickel are cointegrated.
+
+Fig 17: ADF Test results for copper ~ nickel regression model residuals.
+NULL: Residuals have unit unit roots
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ADF-cointegration.png"  />
+</div>
+<br>
+
+### 5. Error Correction Model (ECM)
+
+All the previous tests and trouble was so we could decide on the best regression model to use. We choose the ECM model because our data is cointegrated and so the linear combination of nickel and copper are stationary.
+
+<div align="Left">
+  <img height="60%" width="75%" src="https://github.com/GodfreyElia/Time-Series-Econometrics1/blob/main/Diagrams/ECM%20-%20Model.png"  />
+</div>
+<br>
+
+In conclusion, we model the price of copper and nickel using their first differences, and lags of the same as well the residual (error term/ shorterm disequilibrium). The general regression is the OLS as cointegrating variables are stationary in their linear combination.
+
+----
+
+Thank you for reading my project. I hope you enjoyed! For more exciting projects, see [here](https://github.com/GodfreyElia)
+
