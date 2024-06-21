@@ -196,7 +196,7 @@ B. Trend
 </div>
 <br>
 
-Conclusion: After running ADF test using the URCA library in R, we fail to reject the null hypothesis that our Copper time series data is non-stationary and has unit roots, agreeing with the informal checks. Furthermore, we can see that the data is non-stationary with a deterministic trend.
+Conclusion: After running ADF test using the URCA library in R and using a confidence level of 5% and sample size of 100, we fail to reject the null hypothesis that our Copper time series data is non-stationary and has unit roots, agreeing with the informal checks. Furthermore, we can see that the data is non-stationary with a deterministic trend.
 
 ##### 2. Nickel
 
